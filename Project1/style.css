@@ -33,3 +33,90 @@ html,body{
     justify-content: center;
     gap: 3px;
 }
+
+#nav h3{
+    font-size: 15px;
+    border: 2px solid black; /*this border adds a square to the Menu text. */
+    font-weight: 500px;
+    padding: 0 10px;
+    border-radius: 50px;
+}
+
+#nav i{
+    font-size: 15px;
+    border: 2px solid black; /*this border adds a square to the Menu text. */
+    font-weight: 500px;
+    padding: 0px 8px; 
+    border-radius: 50px; /*this ised to curve the edges of the border*/
+}
+
+#nav h1{
+    font-weight: 500px;
+    font-size: 30px;
+    text-transform: uppercase; /*here we made denytech in capital form*/
+}
+
+#nav button { /* here we have donig the same job as menu and making them.*/
+    font-size: 15px;
+    font-weight: 600px;
+    padding: 7px 17px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+/* but the log in  botton is white and sign-in button is orange so we need to give it an different id to classify*/
+
+#cas{
+    border: none;
+    background-color:orange;
+    color: white;
+}
+
+/*Now i need to address the H1 tag but we if i write "#h1 {}" this will create problem and bring every h1 tag so if want
+ this specific tag inside the main i write this*/
+ #main>h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+ }
+
+ img{
+    height: 300px;
+    width: 320px;
+    /*now to properly fit the image we use object-fit: cover and if we want see the image from the top
+    object-position: cover; . And to fit the image in background then we use background-size: cover;*/
+    object-fit: cover;
+    object-position: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+ }
+
+ #img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+ }
+ #img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+ }
+ #img3{
+    transform: translate(-50%,-50%) rotate(-15deg);
+ }
+ #img4{
+    transform: translate(-50%,-50%) rotate(-5deg);
+ }
+
+ #bot-text{
+    font-size: 12px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    color:darkgoldenrod;
+ }
+ 
