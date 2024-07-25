@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilory;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 63px;
+}
+
+#nav-part1{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-part2{
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#nav h3{
+    font-size: 21px;
+    font-weight: 600;
+}
+#nav h2{
+    font-size: 21px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#content{
+    padding: 45px 63px;
+    margin-top: 100px;
+}
+
+#content h3{
+    font-size: 40px;
+    font-weight: 300
+}
+
+#content h1{
+    font-size: 99px;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 90px; /* this line height gives space btw lines.*/
+    letter-spacing: -3px;  /* this gives space btw letters.*/
+}
+
+/* Now in this case div we have case studies and we made a seperate div for the line on the right and number*/
+#case{
+   padding: 45px 63px;
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#case h4{
+    font-size: 29px;
+    font-weight: 600px;
+}
+
+#case h5{
+    font-size: 29px;
+    font-weight: 600px;
+}
+/* this right div has line and number inside so we first separate them with space*/
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: black;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 63px;
+    gap: 60px;
+}
+
+.elements{
+    width: 50%;
+    
+}
+.elem-img{
+    height: 490px;
+    width: 100%;
+    background-color: rgb(130, 221, 248);
+    border-radius: 30px ;
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
+}
+#img1{
+    object-fit: cover;
+    padding-right: 30px;
+    object-position: center;
+    background-size: cover;
+    background-position: center;
+}
+#img2{
+    background-size: cover;
+    background-position: center;
+}
+
+#bottom {
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 200px;
+    
+}
+
+.bottom i{
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: green;
+}
